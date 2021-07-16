@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Puissance 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/reset.js"></script>
+    <script src="script/p4.js"></script>
+</head>
+<body>
+    <div id="sets">
+        <div class="gameboard">taille X=<input id="X" type="number" value="7"> <br>taille Y=<input id="Y" type="number" value="6"> 
+        </div>
+        <p id="tour"></p>
+        <p id="Score"></p>
+        <div id="j0" class="id">
+            <h2>joueur 0</h2>
+            <select name="couleur" id="couleur0">
+                <option value="red">rouge</option>
+                <option value="yellow">jaune</option>
+                <option value="lightgreen">vert</option>
+            </select>
+        </div>
+        <div id="j1" class="id">
+            <h2>joueur 1</h2>
+            <select name="couleur" id="couleur1">
+                <option value="yellow">jaune</option>
+                <option value="red">rouge</option>
+                <option value="green">vert</option>
+            </select>
+        </div>
+        <button id="start">Commencer</button>
+    </div>
+    <span id="endG"></span>
+    <span class='undo'></span>
+    <button id="reset">Rejouer</button>
+
+
+    <div id="jeu">
+        
+    </div>
+</body>
+</html>
